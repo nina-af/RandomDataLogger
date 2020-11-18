@@ -4,4 +4,4 @@ threshold in order to encourage the user's phone to reconnect to the cell tower 
 for users relying on their phone to provide a mobile hotspot in order to access the internet on other devices.
 
 
-![ScreenShot](https://raw.github.com/nina-af/RandomDataLogger/blob/master/RandomDataLogger_sh1.jpg)
+![image](https://github.com/nina-af/RandomDataLogger/blob/master/RandomDataLogger_sh1.jpg)
