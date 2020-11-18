@@ -1,0 +1,44 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/pref_log_header">
+
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:disableDependentsState="true"
+            app:key="@string/pref_key_log_enabled"
+            app:summaryOff="@string/pref_sum_log_disabled"
+            app:summaryOn="@string/pref_sum_log_enabled"
+            app:title="@string/pref_title_log_enable" />
+
+        <EditTextPreference
+            app:defaultValue="@string/pref_default_log_freq"
+            app:dependency="@string/pref_key_log_enabled"
+            app:key="@string/pref_key_log_freq"
+            app:useSimpleSummaryProvider="true"
+            app:title="@string/pref_title_log_freq" />
+
+        <EditTextPreference
+            app:defaultValue="-110"
+            app:key="@string/pref_key_threshold"
+            app:title="@string/pref_title_threshold"
+            app:dependency="@string/pref_key_log_enabled"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:defaultValue="@string/pref_default_toggle_interval"
+            app:key="@string/pref_key_toggle_interval"
+            app:title="@string/pref_title_toggle_interval"
+            app:dependency="@string/pref_key_log_enabled"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:disableDependentsState="true"
+            app:key="@string/pref_key_use_real_data"
+            app:summaryOff="@string/pref_sum_use_real_data_disabled"
+            app:summaryOn="@string/pref_sum_use_real_data_enabled"
+            app:title="@string/pref_title_use_real_data" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
