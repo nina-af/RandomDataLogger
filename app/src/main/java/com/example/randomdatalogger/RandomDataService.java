@@ -1,5 +1,5 @@
 /*
- * Generates and logs random 'signal' measurements taken at fixed time intervals.
+ * Generates and logs random 'signal' measurements, or logs real signal strength values, taken at fixed time intervals.
  */
 
 package com.example.randomdatalogger;
