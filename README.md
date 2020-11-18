@@ -5,3 +5,5 @@ for users relying on their phone to provide a mobile hotspot in order to access 
 
 
 ![image](https://github.com/nina-af/RandomDataLogger/blob/master/RandomDataLogger_sh1.jpg)
+
+<img src="https://github.com/nina-af/RandomDataLogger/blob/master/RandomDataLogger_sh1.jpg" alt="Main Activity" width="270" height="550">
